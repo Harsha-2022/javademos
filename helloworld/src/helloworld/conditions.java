@@ -17,6 +17,19 @@ public class conditions {
          else {
         	 System.out.println("y");
          }
+         int a=2;
+         int b=6;
+         int c=10;
+         System.out.println("a<b and a<c= "+(a<b && a<c));
+         System.out.println("a<b and a<c= "+(a<b & a<c));
+         System.out.println("a<b and a<c= "+(++a<b && a<c));
+         System.out.println("a after logical and= "+a);
+         System.out.println("a>b and a<c= "+(++a>b && a<c));
+         System.out.println("a after bitwise and= "+a);
+         System.out.println("a>b and a<c= "+(++a>b & a<c));
+         System.out.println("a after bitwise and= "+a);
+         System.out.println("a>b and a>c= "+(a>++b & a>c));
+         System.out.println("b after bitwise and= "+b);
 	}
 
 }
